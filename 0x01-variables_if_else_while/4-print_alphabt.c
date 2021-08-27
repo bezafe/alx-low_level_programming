@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - main block
+ * main - entry block
  * Description: Use `putchar` to print all letters but the letter 'q' and 'e'.
  * Return: 0
  */
@@ -12,11 +12,13 @@ int main(void)
 	while (c <= 'z')
 	{
 		if (c != 'q' && c != 'e')
-		  putchar(c);
-		  
+		{
+			putchar(c);
+		}
 		c++;
 	}
-	putchar('\n');
 
+	putchar('\n');
 	return (0);
+
 }
