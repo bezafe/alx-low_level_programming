@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include <stdio.h>
 /**
  * main - Print
  * Description: Print "Holberton" followed by a new line.
