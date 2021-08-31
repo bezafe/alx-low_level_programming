@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 /**
  * main - Print
  * Description: Print "Holberton" followed by a new line.
@@ -12,7 +12,7 @@ int main(void)
 
 	while (i < 9)
 	{
-		_putchar(holberton[i]);
+		_putchar(c[i]);
 		i++;
 	}
 	_putchar('\n');
