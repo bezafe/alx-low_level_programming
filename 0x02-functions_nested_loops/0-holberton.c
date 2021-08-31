@@ -1,19 +1,20 @@
 #include "holberton.h"
 /**
- * main - Print "Holberton" followed by a new line.
+ * main - Print
+ * Description: Print "Holberton" followed by a new line.
  * Return: 0
  */
 int main(void)
 {
-	char holberton[] = "Holberton";
+	char c[10] = "Holberton";
+
 	int i = 0;
 
-	while (holberton[i] != '\0')
+	while (i < 9)
 	{
-		_putchar(holberton[i]);
+		_putchar(c[i]);
 		i++;
 	}
 	_putchar('\n');
-
 	return (0);
 }
