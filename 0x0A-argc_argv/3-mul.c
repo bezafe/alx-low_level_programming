@@ -6,7 +6,7 @@
  * @argv: char
  * Return: 0
  */
-int main (int argc, char  *argv[])
+int main(int argc, char  *argv[])
 {
 	int sum;
 
@@ -17,9 +17,8 @@ int main (int argc, char  *argv[])
 	}
 	else
 	{
-		printf ("Error\n");
+		printf("Error\n");
 		return (1);
 	}
-	
 	return (0);
 }
